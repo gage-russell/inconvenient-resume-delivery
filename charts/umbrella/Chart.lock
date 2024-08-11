@@ -1,0 +1,12 @@
+dependencies:
+- name: postgresql
+  repository: https://charts.bitnami.com/bitnami
+  version: 15.5.21
+- name: inconvenient_resume_api
+  repository: file://../inconvenient_resume_api
+  version: 0.1.0
+- name: inconvenient_resume_app
+  repository: file://../inconvenient_resume_app
+  version: 0.1.0
+digest: sha256:b75c6146ab3c4b3ff19fa6debf910e1a25b31aa191b42e444a71e7f650c935c4
+generated: "2024-08-10T23:02:54.914058-05:00"

@@ -1,0 +1,41 @@
+inconvenient_resume_api:
+  enabled: true
+  fastapi:
+    enabled: true
+    ingress:
+      enabled: true
+      className: ""
+      annotations: { }
+      # kubernetes.io/ingress.class: nginx
+      # kubernetes.io/tls-acme: "true"
+      hosts:
+        - host: api.local
+          paths:
+            - path: /
+              pathType: ImplementationSpecific
+
+inconvenient_resume_app:
+  enabled: true
+  fastapi:
+    enabled: true
+    ingress:
+      enabled: true
+      className: ""
+      annotations: { }
+      # kubernetes.io/ingress.class: nginx
+      # kubernetes.io/tls-acme: "true"
+      hosts:
+        - host: app.local
+          paths:
+            - path: /
+              pathType: ImplementationSpecific
+
+postgresql:
+  enabled: true
+  fullnameOverride: "incovnenient-resume-postgresql"
+  global:
+    postgresql:
+      auth:
+        postgresPassword: "password"
+        username: "postgres"
+        password: "password"

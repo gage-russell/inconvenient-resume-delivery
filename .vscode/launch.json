@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug API",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "inconvenient_resume_api.main:app",
+                "--reload"
+            ],
+            "cwd": "${workspaceFolder}/inconvenient_resume_api",
+            "jinja": true,
+            "envFile": "${workspaceFolder}/.env",
+        },
+        {
+            "name": "Debug App",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "cwd": "${workspaceFolder}/inconvenient_resume_app",
+            "args": ["-d", "chrome","--web-port", "5173"]
+        },
+    ]
+}

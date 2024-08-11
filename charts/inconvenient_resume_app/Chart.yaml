@@ -1,0 +1,10 @@
+# guided (and some stolen with love) from https://github.com/codaglobal/fullstack-example/tree/master
+apiVersion: v1
+appVersion: "1.0"
+description: UI for Inconvenient Resume
+name: inconvenient_resume_app
+version: 0.1.0
+dependencies:
+  - name: fastapi
+    version: 0.2.6
+    repository: file://../fastapi

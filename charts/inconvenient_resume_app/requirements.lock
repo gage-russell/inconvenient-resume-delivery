@@ -1,0 +1,6 @@
+dependencies:
+- name: fastapi
+  repository: file://../fastapi
+  version: 0.2.6
+digest: sha256:f0ba1951bb73684b12c06a60cef9c56f28d5953b1c4d870f44bee69fc136833a
+generated: "2024-08-10T22:50:30.984637-05:00"

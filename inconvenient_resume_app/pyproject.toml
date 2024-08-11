@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "inconvenient-resume-app"
+version = "0.1.0"
+description = ""
+authors = ["gage russell"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.1"
+pydantic-settings = "^2.4.0"
+streamlit-pdf-viewer = "^0.0.16"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
