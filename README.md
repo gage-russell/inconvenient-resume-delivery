@@ -1,4 +1,4 @@
-# Gage Russell: the most inconvenient way to get my resume 💌
+# Gage Russell: the most inconvenient way deliver my resume 💌
 
 ## Description
 This is a **kubernetes local development environment** using kind to host:
@@ -8,6 +8,8 @@ This is a **kubernetes local development environment** using kind to host:
 All to show you my resume .... **the most inconvenient way to show you my resume**. 🫠
 
 **Please note**: This was thrown together for fun on a saturday evening to dust off some cobwebs and add some fun to updating my resume. This would need a little more time to work seamlessly .. and time is not easily found. -- Noticing some transient request errors when running inside cluster. Thinking this might be related to overwhelming amount of liveness probe checks to single instance API service, but have not invesitgated at all. Re-clicking buttons seems to resolve the issue. Something to come back and play with another day.
+
+If you want an easy way out of not reading through and running this fun little project, here is my [resume](./inconvenient_resume_api/inconvenient_resume_api/assets/gage_russell_resume.pdf).
 
 ### Demo
 ![](./docs/inconvenient-resume-app.gif)
